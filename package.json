@@ -4,7 +4,6 @@
   "description": "Lead RESTful API using REACT and Django",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

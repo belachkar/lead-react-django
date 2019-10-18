@@ -1,3 +1,11 @@
+# NPM modules folder
 node_modules
+
+# Environement variables file
 .env
+
+# VS Code settings folder
 .vscode
+
+# DB data
+db.sqlite3
