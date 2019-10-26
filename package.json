@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Lead RESTful API using REACT and Django",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack --mode development ./leadusermanager/frontend/src/index.js --output ./leadusermanager/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./leadusermanager/frontend/src/index.js --output ./leadusermanager/frontend/static/frontend/main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/belachkar/lead-react-django.git"
@@ -20,7 +23,17 @@
   },
   "homepage": "https://github.com/belachkar/lead-react-django#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   }
 }
