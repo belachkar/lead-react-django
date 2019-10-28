@@ -1,4 +1,4 @@
-# Lead Django REST - React frontend API
+# Lead (Django REST - React frontend) API
 
 Lead users RESTful API using REACT for the frontend API and Django for the REST API.
 

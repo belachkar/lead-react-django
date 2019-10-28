@@ -4,8 +4,9 @@
   "description": "Lead RESTful API using REACT and Django",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack --mode development ./leadusermanager/frontend/src/index.js --output ./leadusermanager/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./leadusermanager/frontend/src/index.js --output ./leadusermanager/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development --watch ./leadusermanager/frontend/src/index.js --output ./leadusermanager/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./leadusermanager/frontend/src/index.js --output ./leadusermanager/frontend/static/frontend/main.js",
+    "serve": "python ./leadusermanager/manage.py runserver"
   },
   "repository": {
     "type": "git",
