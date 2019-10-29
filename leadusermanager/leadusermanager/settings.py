@@ -120,3 +120,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Added for developement server to fix returning js file like "text/plain"
+if DEBUG:
+    import mimetypes
+    mimetypes.add_type('text/javascript', '.js', True)

@@ -26,6 +26,33 @@ Lead users RESTful API using REACT for the frontend API and Django for the REST 
 | react                                   | 16.11.0 |                                                                                                                                                                                                      |
 | prop-types                              |  15.7.2 |                                                                                                                                                                                                      |
 | react-dom                               | 16.11.0 |                                                                                                                                                                                                      |
+| redux                                   |   4.0.4 |                                                                                                                                                                                                      |
+| react-redux                             |   7.1.1 |                                                                                                                                                                                                      |
+| redux-thunk                             |   2.3.0 |                                                                                                                                                                                                      |
+| redux-devtools-extension                |  2.13.8 |                                                                                                                                                                                                      |
+| axios                                   |  0.19.0 |                                                                                                                                                                                                      |
+
+## Installing Packages
+
+### NPM Packages
+
+```nginx
+npm install
+```
+
+### Pyton Packages
+
+#### Installing pipenv
+
+```nginx
+pip install pipenv
+```
+
+#### Installing pipenv Packages
+
+```nginx
+pipenv install
+```
 
 ## To Start the API
 
