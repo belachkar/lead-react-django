@@ -4,15 +4,16 @@
   ],
   "env": {
     "node": true,
-    "browser": true
+    "browser": true,
+    "es2017": true
   },
   "parserOptions": {
-    "ecmaVersion": 2018,
     "sourceType": "module"
   },
   "plugins": [
     "eslint-plugin-react"
   ],
+  "parser": "babel-eslint",
   "settings": {
     "react": {
       "createClass": "createReactClass", // Regex for Component Factory to use,

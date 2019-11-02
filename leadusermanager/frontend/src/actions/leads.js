@@ -9,7 +9,7 @@ export const getLeads = () => dispatch => {
     .then(res => {
       dispatch({
         type: GET_LEADS,
-        preload: res.data
+        payload: res.data
       });
     })
     .catch(err => console.error(err.message));
