@@ -34,7 +34,7 @@
     "babel-eslint": "^8.2.6",
     "eslint-plugin-react": "^7.16.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "react": "^16.11.0",
